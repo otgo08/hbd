@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float and alighment</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.4em;
+        }
+        .box{
+            background: #f4f4f4;
+            border: 1px solid #333;
+            padding: 20px;
+            margin-bottom: 15px;
+        }
+        .box p {
+            /* text Align */
+            text-align: center;
+            text-align: left;
+            text-align: right;
+            text-align: justify;
+        }
+        .container {
+            max-width: 960px;
+            margin: 30px auto;
+        }
+        .clr{
+            clear: both;
+        }
+        #box2 {
+            float: left;
+            width: 68%;
+        }
+        #box3{
+            float: right;
+            width: 30%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="box1" class="box">
+            <h3>Гарчиг1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam eveniet laboriosam distinctio reprehenderit suscipit repellendus obcaecati inventore iusto nostrum perferendis sed fuga, debitis, mollitia perspiciatis. Ea nam totam vel dolorum.</p>
+        </div>
+        <div id="box2" class="box">
+            <h3>Гарчиг2</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam eveniet laboriosam distinctio reprehenderit suscipit repellendus obcaecati inventore iusto nostrum perferendis sed fuga, debitis, mollitia perspiciatis. Ea nam totam vel dolorum.</p>
+        </div>
+        <div id="box3" class="box">
+            <h3>Гарчиг3</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam eveniet laboriosam distinctio reprehenderit suscipit repellendus obcaecati inventore iusto nostrum perferendis sed fuga, debitis, mollitia perspiciatis. Ea nam totam vel dolorum.</p>
+        </div>
+        <div class="clr"></div>
+        <div id="box4" class="box">
+            <h3>Гарчиг4</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam eveniet laboriosam distinctio reprehenderit suscipit repellendus obcaecati inventore iusto nostrum perferendis sed fuga, debitis, mollitia perspiciatis. Ea nam totam vel dolorum.</p>
+        </div>
+    </div>
+</body>
+</html>

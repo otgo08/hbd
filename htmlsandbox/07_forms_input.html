@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and Input</title>
+</head>
+<body>
+    <form action="process.php">
+        <!-- Text -->
+        <div>
+            <label for="name">Нэр</label> <br>
+            <input type="text" id="name" value="Отгонбаатар">
+        </div> <br>
+        <!-- Email -->
+        <div>
+            <label for="email">И-мэйл</label> <br>
+            <input type="email" name="email" id="email" placeholder="Та И-Мэйл хаягаа бичнэ үү">
+        </div>
+        <br>
+        <!-- Textarea -->
+        <div>
+            <label for="message">Санал сэтгэгдэл</label> <br>
+            <textarea name="message" id="message" cols="30" rows="5"></textarea>
+        </div>
+        <br>
+        <!-- Select -->
+        <div>
+            <label for="sex">Хүйс</label><br>
+            <select name="sex" id="sex">
+                <option value="male">Эрэгтэй</option>
+                <option value="female" selected>Эмэгтэй</option>
+            </select>
+        </div>
+        <br>
+        <!-- Number -->
+        <div>
+            <label for="age">Нас</label><br>
+            <input type="number" name="age" id="age">
+        </div>
+        <br>
+        <!-- Date -->
+        <div>
+            <label for="birthday">Төрсөн он, сар, өдөр</label><br>
+            <input type="date" name="birthday" id="birthday">
+        </div>
+        <br>
+        <!-- radio button -->
+        <div>
+            <label for="membership">Гишүүнчлэл</label><br>
+            <input type="radio" name="membership" value="simple" id="membership" checked>Энгийн
+            <input type="radio" name="membership" value="standart" id="membership">Стандарт
+            <input type="radio" name="membership" value="prenium" id="membership">VIP
+        </div>
+        <br>
+        <!-- checkbox button -->
+        <div>
+            <label for="Hobbies">Сонирхол</label><br>
+            <input type="checkbox" name="Hobbies" value="music" id="Hobbies" checked>Дуу хөгжит
+            <input type="checkbox" name="Hobbies" value="Sport" id="Hobbies">Спорт
+            <input type="checkbox" name="Hobbies" value="Book" id="Hobbies">Ном
+        </div>
+        <br>
+        <!-- button -->
+        <input type="submit" value="Бүртгүүлэх">
+        <button type="submit">Илгээх</button>
+    </form>
+</body>
+</html>

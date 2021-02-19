@@ -1,0 +1,7 @@
+var addModules = function( x,  y,  z)  {
+    var niilber = module(x) + module(y) + module(z);
+    return  niilber ; 
+} ;
+
+var sum = addModules( 1, 2, 1) ;
+consule.log(sum) ;
